@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+    overflow: hidden;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #fff;
+}
+
+
+.app-header{
+    top: 0;
+    width: 100%;
+    }
+
+.app-header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00004d;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav li{
+    flex: 1 1 0;
+}
+
+ul:nth-child(5){
+ color: rgb(88, 88, 185);   
+}
+
+.logo{
+    flex: 1 1 0;
+}
+
+.Info-sec{ 
+position: absolute;
+width: 100%;
+height: 100vh;
+left: 0px;
+}
+
+.avatar {
+position: absolute;
+width: 1350px;
+height: 400px;
+left: 0px;
+content: url("../media/fin.jpg");
+}
+
+.color-blend{
+    position: absolute;
+    width: 1350px;
+    height: 400px;
+    left: 0px;
+    background: #6666ff;
+    opacity: 0.7;
+    }
+
+.btn{
+position: absolute;
+padding:10px 20px ;
+left: 600px;
+top: 300px;
+border-radius: 10px;
+text-align: center;
+color: #fff;
+background: #00004d;
+border: #00004d;
+}
+
+P{
+position: absolute;
+width: 1056.53px;
+height: 126px;
+left: 195.22px;
+top: 100px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.lower-sec{
+position: absolute;
+width: 1350px;
+height: 200px;
+left: 0px;
+top: 400px;
+display:flex;
+}
+
+.left-sec{
+width: 675px;
+min-height: 200px;
+}
+
+.right-sec{
+background: #00004d;
+width: 675px;
+min-height: 200px;
+}
